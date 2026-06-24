@@ -11,8 +11,8 @@
 <h2 class="wp-block-heading"><?php esc_html_e( 'Upcoming activities', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-query" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:query {"queryId":0,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","inherit":false},"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-query alignwide" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
 <!-- wp:post-featured-image {"isLink":true,"style":{"border":{"radius":"8px"}}} /-->
 
 <!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /-->

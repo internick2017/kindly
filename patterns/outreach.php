@@ -17,8 +17,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"blockGap":{"left":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"className":"is-style-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-card"><!-- wp:html -->
 <p class="kindly-badge" aria-hidden="true">🍞</p>

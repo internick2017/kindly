@@ -11,8 +11,8 @@
 <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Our team', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"width":"120px","height":"120px","scale":"cover","sizeSlug":"thumbnail","style":{"border":{"radius":"50%"}}} -->
 <figure class="wp-block-image size-thumbnail is-resized has-custom-border"><img alt="" style="border-radius:50%;object-fit:cover;width:120px;height:120px"/></figure>
 <!-- /wp:image -->

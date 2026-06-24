@@ -11,8 +11,8 @@
 <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'When we gather', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"blockGap":{"left":"var:preset|spacing|50"}}}} -->
-<div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"},"blockGap":{"left":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--60)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"className":"is-style-card","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-card"><!-- wp:heading {"level":3,"textColor":"primary","fontSize":"medium","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1px","fontWeight":"700"}}} -->
 <h3 class="wp-block-heading has-primary-color has-text-color has-medium-font-size" style="font-weight:700;letter-spacing:1px;text-transform:uppercase"><?php esc_html_e( 'Sunday Service', 'kindly' ); ?></h3>
