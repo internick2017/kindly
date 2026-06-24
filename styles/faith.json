@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Faith",
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "base", "color": "#fbfbf9", "name": "Base" },
+        { "slug": "surface", "color": "#eef1f0", "name": "Surface" },
+        { "slug": "contrast", "color": "#22303a", "name": "Contrast" },
+        { "slug": "primary", "color": "#3a6b7e", "name": "Primary" },
+        { "slug": "secondary", "color": "#5f7468", "name": "Secondary" },
+        { "slug": "accent", "color": "#d8c08a", "name": "Accent" }
+      ]
+    }
+  }
+}

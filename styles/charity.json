@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "Charity",
+  "settings": {
+    "color": {
+      "palette": [
+        { "slug": "base", "color": "#fffdf8", "name": "Base" },
+        { "slug": "surface", "color": "#fdeede", "name": "Surface" },
+        { "slug": "contrast", "color": "#2c2417", "name": "Contrast" },
+        { "slug": "primary", "color": "#a8481c", "name": "Primary" },
+        { "slug": "secondary", "color": "#3f6b54", "name": "Secondary" },
+        { "slug": "accent", "color": "#f0a02b", "name": "Accent" }
+      ]
+    }
+  }
+}
