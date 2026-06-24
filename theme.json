@@ -18,6 +18,10 @@
         { "slug": "primary", "color": "#2a6f6b", "name": "Primary" },
         { "slug": "secondary", "color": "#c9885a", "name": "Secondary" },
         { "slug": "accent", "color": "#e4b363", "name": "Accent" }
+      ],
+      "defaultGradients": false,
+      "gradients": [
+        { "slug": "hero", "name": "Hero", "gradient": "linear-gradient(135deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--contrast) 100%)" }
       ]
     },
     "typography": {

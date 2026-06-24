@@ -28,3 +28,25 @@ if ( ! function_exists( 'kindly_register_pattern_categories' ) ) {
 	}
 }
 add_action( 'init', 'kindly_register_pattern_categories' );
+
+if ( ! function_exists( 'kindly_register_block_styles' ) ) {
+	function kindly_register_block_styles() {
+		register_block_style(
+			'core/button',
+			array(
+				'name'         => 'pill',
+				'label'        => __( 'Pill', 'kindly' ),
+				'inline_style' => '.wp-block-button.is-style-pill .wp-block-button__link{border-radius:999px}',
+			)
+		);
+		register_block_style(
+			'core/group',
+			array(
+				'name'         => 'card',
+				'label'        => __( 'Card', 'kindly' ),
+				'inline_style' => '.wp-block-group.is-style-card{background-color:var(--wp--preset--color--base);border:1px solid color-mix(in srgb, var(--wp--preset--color--contrast) 12%, transparent);border-radius:8px;padding:var(--wp--preset--spacing--40)}',
+			)
+		);
+	}
+}
+add_action( 'init', 'kindly_register_block_styles' );
