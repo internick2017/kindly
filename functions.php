@@ -18,3 +18,13 @@ if ( ! function_exists( 'kindly_enqueue_styles' ) ) {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'kindly_enqueue_styles' );
+
+if ( ! function_exists( 'kindly_register_pattern_categories' ) ) {
+	function kindly_register_pattern_categories() {
+		register_block_pattern_category(
+			'kindly',
+			array( 'label' => __( 'Kindly', 'kindly' ) )
+		);
+	}
+}
+add_action( 'init', 'kindly_register_pattern_categories' );
