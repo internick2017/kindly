@@ -48,6 +48,7 @@ Bundled resources and their licenses:
 
 * Inter font — Copyright The Inter Project Authors — SIL Open Font License 1.1 — https://github.com/rsms/inter
 * Fraunces font — Copyright The Fraunces Project Authors — SIL Open Font License 1.1 — https://github.com/undercasetype/Fraunces
+* Demo images (assets/images/*.jpg) — abstract artwork generated with Canva, used as default demo imagery. See assets/images/LICENSE.md. (For a WordPress.org submission, replace these with GPL/CC0 assets.)
 
 OFL 1.1: https://openfontlicense.org/open-font-license-official-text/
 

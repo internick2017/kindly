@@ -21,6 +21,50 @@ Tags: full-site-editing, block-patterns, accessibility-ready, translation-ready,
 	border-radius: 2px;
 }
 
+/* --- Visual depth & polish --- */
+.wp-block-group.is-style-card,
+.kindly-card {
+	background-color: var(--wp--preset--color--base);
+	border-radius: 12px;
+	box-shadow: 0 12px 32px -14px rgba(17, 24, 39, 0.20);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wp-block-group.is-style-card:hover,
+.kindly-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 20px 44px -16px rgba(17, 24, 39, 0.28);
+}
+
+/* Buttons get a gentle lift. */
+.wp-block-button__link {
+	box-shadow: 0 8px 20px -10px rgba(17, 24, 39, 0.45);
+	transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.wp-block-button__link:hover {
+	transform: translateY(-2px);
+}
+
+/* Decorative accent rule for section headings. */
+.kindly-accent-rule {
+	width: 64px;
+	height: 4px;
+	border-radius: 2px;
+	background: var(--wp--preset--color--accent);
+}
+
+/* Round icon badge used in feature columns. */
+.kindly-badge {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background: color-mix(in srgb, var(--wp--preset--color--primary) 14%, var(--wp--preset--color--base));
+	font-size: 1.75rem;
+	line-height: 1;
+}
+
 /* Respect users who prefer reduced motion. */
 @media (prefers-reduced-motion: reduce) {
 	*,
