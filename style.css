@@ -13,3 +13,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: kindly
 Tags: full-site-editing, block-patterns, accessibility-ready, translation-ready, custom-colors, blog, news, one-column, two-columns
 */
+
+/* Visible keyboard focus on every interactive element (WCAG 2.2 — 2.4.7). */
+:where(a, button, input, select, textarea, summary, .wp-block-button__link, .wp-block-navigation-item__content, .wp-block-search__button):focus-visible {
+	outline: 2px solid var(--wp--preset--color--primary);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+/* Respect users who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+	*,
+	::before,
+	::after {
+		animation-duration: 0.001ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.001ms !important;
+		scroll-behavior: auto !important;
+	}
+}
