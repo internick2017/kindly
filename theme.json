@@ -3,6 +3,78 @@
   "version": 3,
   "settings": {
     "appearanceTools": true,
-    "layout": { "contentSize": "680px", "wideSize": "1140px" }
+    "layout": { "contentSize": "680px", "wideSize": "1140px" },
+    "useRootPaddingAwareAlignments": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "base", "color": "#ffffff", "name": "Base" },
+        { "slug": "surface", "color": "#f5f3ee", "name": "Surface" },
+        { "slug": "contrast", "color": "#1f2933", "name": "Contrast" },
+        { "slug": "primary", "color": "#2a6f6b", "name": "Primary" },
+        { "slug": "secondary", "color": "#c9885a", "name": "Secondary" },
+        { "slug": "accent", "color": "#e4b363", "name": "Accent" }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "defaultFontSizes": false,
+      "fontFamilies": [
+        {
+          "slug": "heading",
+          "name": "Heading",
+          "fontFamily": "Fraunces, Georgia, serif",
+          "fontFace": [
+            { "fontFamily": "Fraunces", "fontWeight": "400 700", "fontStyle": "normal", "fontStretch": "normal", "src": [ "file:./assets/fonts/fraunces.woff2" ] }
+          ]
+        },
+        {
+          "slug": "body",
+          "name": "Body",
+          "fontFamily": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+          "fontFace": [
+            { "fontFamily": "Inter", "fontWeight": "400 700", "fontStyle": "normal", "fontStretch": "normal", "src": [ "file:./assets/fonts/inter.woff2" ] }
+          ]
+        }
+      ],
+      "fontSizes": [
+        { "slug": "small", "name": "Small", "size": "0.9rem", "fluid": false },
+        { "slug": "medium", "name": "Medium", "size": "1.05rem", "fluid": { "min": "1rem", "max": "1.125rem" } },
+        { "slug": "large", "name": "Large", "size": "1.5rem", "fluid": { "min": "1.25rem", "max": "1.6rem" } },
+        { "slug": "x-large", "name": "Extra Large", "size": "2.25rem", "fluid": { "min": "1.9rem", "max": "2.75rem" } },
+        { "slug": "xx-large", "name": "Huge", "size": "3.25rem", "fluid": { "min": "2.5rem", "max": "4rem" } }
+      ]
+    },
+    "spacing": {
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        { "slug": "20", "name": "1", "size": "0.5rem" },
+        { "slug": "30", "name": "2", "size": "1rem" },
+        { "slug": "40", "name": "3", "size": "1.5rem" },
+        { "slug": "50", "name": "4", "size": "2.5rem" },
+        { "slug": "60", "name": "5", "size": "4rem" },
+        { "slug": "70", "name": "6", "size": "6rem" },
+        { "slug": "80", "name": "7", "size": "8rem" }
+      ]
+    }
+  },
+  "styles": {
+    "color": { "background": "var(--wp--preset--color--base)", "text": "var(--wp--preset--color--contrast)" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--body)", "fontSize": "var(--wp--preset--font-size--medium)", "lineHeight": "1.7" },
+    "spacing": { "blockGap": "var(--wp--preset--spacing--40)", "padding": { "left": "var(--wp--preset--spacing--30)", "right": "var(--wp--preset--spacing--30)" } },
+    "elements": {
+      "heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--heading)", "fontWeight": "600", "lineHeight": "1.2" } },
+      "h1": { "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" } },
+      "h2": { "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" } },
+      "h3": { "typography": { "fontSize": "var(--wp--preset--font-size--large)" } },
+      "link": { "color": { "text": "var(--wp--preset--color--primary)" }, ":hover": { "typography": { "textDecoration": "underline" } } },
+      "button": {
+        "color": { "background": "var(--wp--preset--color--primary)", "text": "var(--wp--preset--color--base)" },
+        "border": { "radius": "6px" },
+        "spacing": { "padding": { "top": "0.75rem", "bottom": "0.75rem", "left": "1.5rem", "right": "1.5rem" } },
+        ":hover": { "color": { "background": "var(--wp--preset--color--contrast)" } },
+        ":focus": { "color": { "background": "var(--wp--preset--color--contrast)" } }
+      }
+    }
   }
 }
