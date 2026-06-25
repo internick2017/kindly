@@ -6,8 +6,8 @@
  * Description: Three areas of humanitarian service the organization gives to the wider community.
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"640px"}} -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)"><!-- wp:group {"layout":{"type":"constrained","contentSize":"640px"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":2} -->
 <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Service &amp; outreach', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
