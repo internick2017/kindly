@@ -48,7 +48,10 @@ Bundled resources and their licenses:
 
 * Inter font — Copyright The Inter Project Authors — SIL Open Font License 1.1 — https://github.com/rsms/inter
 * Fraunces font — Copyright The Fraunces Project Authors — SIL Open Font License 1.1 — https://github.com/undercasetype/Fraunces
-* Demo images (assets/images/*.jpg) — abstract artwork generated with Canva, used as default demo imagery. See assets/images/LICENSE.md. (For a WordPress.org submission, replace these with GPL/CC0 assets.)
+* Demo images (assets/images/*.jpg) — CC0 1.0 / public domain photography, free to redistribute. Full attribution in assets/images/LICENSE.md:
+    * hero-bg.jpg — "Pastel Ocean" by Ethan Brooke, CC0 1.0 (StockSnap)
+    * whoweare.jpg — "Silhouette Family" by RachelH, CC0 1.0 (StockSnap)
+    * serve-bg.jpg — USDA NRCS photograph, public domain (U.S. government work)
 
 OFL 1.1: https://openfontlicense.org/open-font-license-official-text/
 
