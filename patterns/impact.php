@@ -14,7 +14,7 @@
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":2,"textColor":"primary","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-xx-large-font-size">1,200+</h2>
+<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-xx-large-font-size"><?php esc_html_e( '1,200+', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -24,7 +24,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":2,"textColor":"primary","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-xx-large-font-size">85</h2>
+<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-xx-large-font-size"><?php esc_html_e( '85', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -34,7 +34,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":2,"textColor":"primary","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-xx-large-font-size">30</h2>
+<h2 class="wp-block-heading has-text-align-center has-primary-color has-text-color has-xx-large-font-size"><?php esc_html_e( '30', 'kindly' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->

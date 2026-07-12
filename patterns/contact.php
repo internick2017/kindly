@@ -18,15 +18,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong><?php esc_html_e( 'Email:', 'kindly' ); ?></strong> hello@example.org</p>
+<p><strong><?php esc_html_e( 'Email:', 'kindly' ); ?></strong> <?php esc_html_e( 'hello@example.org', 'kindly' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><?php esc_html_e( 'Phone:', 'kindly' ); ?></strong> (000) 000-0000</p>
+<p><strong><?php esc_html_e( 'Phone:', 'kindly' ); ?></strong> <?php esc_html_e( '(000) 000-0000', 'kindly' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong><?php esc_html_e( 'Address:', 'kindly' ); ?></strong> 123 Community Way, Your City</p>
+<p><strong><?php esc_html_e( 'Address:', 'kindly' ); ?></strong> <?php esc_html_e( '123 Community Way, Your City', 'kindly' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 

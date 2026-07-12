@@ -49,9 +49,9 @@ Bundled resources and their licenses:
 * Inter font — Copyright The Inter Project Authors — SIL Open Font License 1.1 — https://github.com/rsms/inter
 * Fraunces font — Copyright The Fraunces Project Authors — SIL Open Font License 1.1 — https://github.com/undercasetype/Fraunces
 * Demo images (assets/images/*.jpg) — CC0 1.0 / public domain photography, free to redistribute. Full attribution in assets/images/LICENSE.md:
-    * hero-bg.jpg — "Pastel Ocean" by Ethan Brooke, CC0 1.0 (StockSnap)
-    * whoweare.jpg — "Silhouette Family" by RachelH, CC0 1.0 (StockSnap)
-    * serve-bg.jpg — USDA NRCS photograph, public domain (U.S. government work)
+    * hero-bg.jpg — "Pastel Ocean" by Ethan Brooke, CC0 1.0 — https://stocksnap.io/photo/pastel-ocean-DKICLDWSO6
+    * whoweare.jpg — "Silhouette Family" by RachelH, CC0 1.0 — https://stocksnap.io/photo/silhouette-family-Q7UIKF58IR
+    * serve-bg.jpg — USDA NRCS photograph, public domain (U.S. government work), PDM 1.0 — https://www.flickr.com/photos/41284017@N08/15288092801
 
 OFL 1.1: https://openfontlicense.org/open-font-license-official-text/
 
