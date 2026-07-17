@@ -3,7 +3,7 @@ Contributors: internick2017
 Requires at least: 6.7
 Tested up to: 7.0
 Requires PHP: 8.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: full-site-editing, block-patterns, accessibility-ready, translation-ready, custom-colors, blog, news, one-column, two-columns
@@ -56,6 +56,10 @@ Bundled resources and their licenses:
 OFL 1.1: https://openfontlicense.org/open-font-license-official-text/
 
 == Changelog ==
+
+= 1.0.1 =
+* Mark remaining pattern strings (contact details, impact stat numbers) as translatable.
+* Add direct source URLs for the bundled demo images to readme.txt.
 
 = 1.0.0 =
 * Initial release.
