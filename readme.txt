@@ -1,9 +1,9 @@
 === Kindly ===
 Contributors: internick2017
 Requires at least: 6.7
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 8.0
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: full-site-editing, block-patterns, accessibility-ready, translation-ready, custom-colors, blog, news, one-column, two-columns
@@ -56,6 +56,10 @@ Bundled resources and their licenses:
 OFL 1.1: https://openfontlicense.org/open-font-license-official-text/
 
 == Changelog ==
+
+= 1.0.2 =
+* Tested up to WordPress 7.1.
+* Fix hero, activities and announcements patterns showing invalid block warnings in the editor.
 
 = 1.0.1 =
 * Mark remaining pattern strings (contact details, impact stat numbers) as translatable.
